@@ -1,82 +1,63 @@
-QKViewの取得
+デバッグ・ユーティリティの利用方法
 ======================================
 
-事前準備：Client IDとSecretの取得(iHealth)
+デバッグ・ユーティリティは、以下の方法で利用可能です。
+
+クライアントでSSH公開鍵を作成
 --------------------------------------
 
-iHealthサイトから、ユーザのClient IDとSecretを入手する必要があります。
-
-`iHealth <https://ihealth.f5.com/>`_ にログインし、右上の”Settings”をクリックします。
-
-.. figure:: images/c14-m1-1.png
-   :scale: 50%
-   :align: center
+クライアント端末で、SSH公開鍵を作成します。(~/.ssh/id_rsa_pub)
 
 
-|
-”Generate New Credentials”をクリックします。
-
-.. figure:: images/c14-m1-2.png
-   :scale: 50%
-   :align: center
-
-
-|
-生成されたClient IDとClient Secretをコピーします。
-
-.. figure:: images/c14-m1-3.png
-   :scale: 50%
-   :align: center
-
-
-|
-QKView取得の設定
+BIG-IP Central Managerでデバッグ・セッションを設定
 --------------------------------------
 
-My instancesから、Qkviewを取得するBIG-IP Nextインスタンスを選択します。
+My instancesから、デバッグ・セッションを行うBIG-IP Nextインスタンスを選択します。
 
 .. figure:: images/c14-m1-4.png
    :scale: 40%
    :align: center
 
 
-|
-“QKView Files”を選択し、“Start Creating”をクリックします。
+“Debug”を選択し、“Proceed”をクリックします。
 
 .. figure:: images/c14-m1-5.png
    :scale: 50%
    :align: center
 
 
-|
-iHealthで生成したClient IDおよびSecretを入力し、Submitをクリックします。
+クライアント端末で作成したSSH公開鍵をコピーして、"Start Debug Session"をクリックします。
 
 .. figure:: images/c14-m1-6.png
    :scale: 50%
    :align: center
 
 
-|
-QKViewファイル名を入力後、”Generate”をクリックします。
+Central Manager GUIで表示されたSSHコマンドを、ターミナルソフトで実行します。
 
 .. figure:: images/c14-m1-7.png
    :scale: 50%
    :align: center
 
 
-|
-QKView生成のプロセスが”Initiated” → “Generating” → “Uploading”と遷移した後、最終的に”Completed”になることを確認します。
+NextインスタンスにSSH接続できることを確認します。
 
 .. figure:: images/c14-m1-8.png
    :scale: 50%
    :align: center
 
 
-|
-iHealthで確認
+デバッグ・セッションの終了
 --------------------------------------
 
-iHealthにログインし、Qkviewファイルがアップロードされていることを確認します。
+Central Manager GUIで、"Stop Debug Session"をクリックします。
+
+.. figure:: images/c14-m1-9.png
+   :scale: 35%
+   :align: center
+
+
+ターミナルのセッションが終了したことを確認します。
 
 .. figure:: images/c14-m1-9.png
    :scale: 35%
