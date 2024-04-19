@@ -7,7 +7,6 @@
 --------------------------------------
 
 クライアント端末で、SSH公開鍵を取得もしくは作成します (例: ~/.ssh/id_rsa.pub)。各OSにおける詳細な手順につきましては、以下のドキュメントをご参照ください。
-
 https://clouddocs.f5.com/bigip-next/latest/support/debug_utility.html#retrieve-client-ssh-public-key
 
 .. note::
@@ -57,6 +56,10 @@ NextインスタンスにSSH接続できることを確認します。
 
 
 |
+デバッグ・セッション中に、Nextインスタンス上で利用可能なコマンドの詳細については、以下のドキュメントをご参照ください。
+https://clouddocs.f5.com/bigip-next/latest/support/debug_utility.html#f5-custom-tools
+
+|
 デバッグ・セッションの終了
 --------------------------------------
 
@@ -71,7 +74,7 @@ Central Manager GUIで、"Stop Debug Session"をクリックします。
 ターミナルのセッションが終了したことを確認します。
 
 .. figure:: images/c14-m1-7.png
-   :scale: 35%
+   :scale: 30%
    :align: center
 
 |
