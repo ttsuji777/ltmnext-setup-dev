@@ -11,7 +11,7 @@
 https://clouddocs.f5.com/bigip-next/latest/support/debug_utility.html#retrieve-client-ssh-public-key
 
 
-
+|
 BIG-IP Central Managerでデバッグ・セッションを設定
 --------------------------------------
 
@@ -22,7 +22,7 @@ My instancesから、デバッグ・セッションを行うBIG-IP Nextインス
    :align: center
 
 
-
+|
 “Debug”を選択し、“Proceed”をクリックします。
 
 .. figure:: images/c14-m1-2.png
@@ -30,7 +30,7 @@ My instancesから、デバッグ・セッションを行うBIG-IP Nextインス
    :align: center
 
 
-
+|
 クライアント端末で作成したSSH公開鍵をコピーして、"Start Debug Session"をクリックします。
 
 .. figure:: images/c14-m1-3.png
@@ -38,7 +38,7 @@ My instancesから、デバッグ・セッションを行うBIG-IP Nextインス
    :align: center
 
 
-
+|
 Central Manager GUIで表示されたSSHコマンドを、ターミナルソフトで実行します。
 
 .. figure:: images/c14-m1-4.png
@@ -46,7 +46,7 @@ Central Manager GUIで表示されたSSHコマンドを、ターミナルソフ�
    :align: center
 
 
-
+|
 NextインスタンスにSSH接続できることを確認します。
 
 .. figure:: images/c14-m1-5.png
@@ -54,7 +54,7 @@ NextインスタンスにSSH接続できることを確認します。
    :align: center
 
 
-
+|
 デバッグ・セッションの終了
 --------------------------------------
 
@@ -65,7 +65,7 @@ Central Manager GUIで、"Stop Debug Session"をクリックします。
    :align: center
 
 
-
+|
 ターミナルのセッションが終了したことを確認します。
 
 .. figure:: images/c14-m1-7.png
