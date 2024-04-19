@@ -14,7 +14,7 @@ BIG-IP Central Managerでデバッグ・セッションを設定
 
 My instancesから、デバッグ・セッションを行うBIG-IP Nextインスタンスを選択します。
 
-.. figure:: images/c14-m1-4.png
+.. figure:: images/c14-m1-1.png
    :scale: 40%
    :align: center
 
@@ -22,28 +22,28 @@ My instancesから、デバッグ・セッションを行うBIG-IP Nextインス
 “Debug”を選択し、“Proceed”をクリックします。
 
 .. figure:: images/c14-m1-2.png
-   :scale: 50%
+   :scale: 35%
    :align: center
 
 
 クライアント端末で作成したSSH公開鍵をコピーして、"Start Debug Session"をクリックします。
 
 .. figure:: images/c14-m1-3.png
-   :scale: 50%
+   :scale: 35%
    :align: center
 
 
 Central Manager GUIで表示されたSSHコマンドを、ターミナルソフトで実行します。
 
 .. figure:: images/c14-m1-4.png
-   :scale: 50%
+   :scale: 35%
    :align: center
 
 
 NextインスタンスにSSH接続できることを確認します。
 
 .. figure:: images/c14-m1-5.png
-   :scale: 50%
+   :scale: 60%
    :align: center
 
 
@@ -60,5 +60,5 @@ Central Manager GUIで、"Stop Debug Session"をクリックします。
 ターミナルのセッションが終了したことを確認します。
 
 .. figure:: images/c14-m1-9.png
-   :scale: 35%
+   :scale: 60%
    :align: center
