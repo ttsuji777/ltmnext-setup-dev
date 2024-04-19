@@ -14,7 +14,6 @@ https://clouddocs.f5.com/bigip-next/latest/support/debug_utility.html#retrieve-c
    F5 UDFラボのWindows 10 ClientにはSSH公開鍵には含まれていないため、上記ドキュメントの手順に従って、ssh-keygenコマンドでSSH公開鍵を生成してください。
 
 
-
 |
 BIG-IP Central Managerでデバッグ・セッションを設定
 --------------------------------------
@@ -38,7 +37,7 @@ My instancesから、デバッグ・セッションを行うBIG-IP Nextインス
 クライアント端末で作成したSSH公開鍵をコピーして、"Start Debug Session"をクリックします。
 
 .. figure:: images/c14-m1-3.png
-   :scale: 30%
+   :scale: 25%
    :align: center
 
 
@@ -73,5 +72,5 @@ Central Manager GUIで、"Stop Debug Session"をクリックします。
 ターミナルのセッションが終了したことを確認します。
 
 .. figure:: images/c14-m1-7.png
-   :scale: 40%
+   :scale: 35%
    :align: center
