@@ -56,7 +56,8 @@ NextインスタンスにSSH接続できることを確認します。
 
 
 |
-デバッグ・セッション中に、Nextインスタンス上で利用可能なコマンドの詳細については、以下のドキュメントをご参照ください。
+デバッグ・セッション中にNextインスタンス上で利用可能なコマンドの詳細については、以下のドキュメントをご参照ください。
+
 https://clouddocs.f5.com/bigip-next/latest/support/debug_utility.html#f5-custom-tools
 
 |
