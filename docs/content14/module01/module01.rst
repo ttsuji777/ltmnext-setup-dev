@@ -21,28 +21,28 @@ My instancesから、デバッグ・セッションを行うBIG-IP Nextインス
 
 “Debug”を選択し、“Proceed”をクリックします。
 
-.. figure:: images/c14-m1-5.png
+.. figure:: images/c14-m1-2.png
    :scale: 50%
    :align: center
 
 
 クライアント端末で作成したSSH公開鍵をコピーして、"Start Debug Session"をクリックします。
 
-.. figure:: images/c14-m1-6.png
+.. figure:: images/c14-m1-3.png
    :scale: 50%
    :align: center
 
 
 Central Manager GUIで表示されたSSHコマンドを、ターミナルソフトで実行します。
 
-.. figure:: images/c14-m1-7.png
+.. figure:: images/c14-m1-4.png
    :scale: 50%
    :align: center
 
 
 NextインスタンスにSSH接続できることを確認します。
 
-.. figure:: images/c14-m1-8.png
+.. figure:: images/c14-m1-5.png
    :scale: 50%
    :align: center
 
@@ -52,7 +52,7 @@ NextインスタンスにSSH接続できることを確認します。
 
 Central Manager GUIで、"Stop Debug Session"をクリックします。
 
-.. figure:: images/c14-m1-9.png
+.. figure:: images/c14-m1-6.png
    :scale: 35%
    :align: center
 
