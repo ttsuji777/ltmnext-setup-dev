@@ -63,7 +63,7 @@ NextインスタンスにSSH接続できることを確認します。
 Central Manager GUIで、"Stop Debug Session"をクリックします。
 
 .. figure:: images/c14-m1-6.png
-   :scale: 35%
+   :scale: 60%
    :align: center
 
 
