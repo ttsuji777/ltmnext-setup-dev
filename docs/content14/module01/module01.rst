@@ -10,7 +10,7 @@
 https://clouddocs.f5.com/bigip-next/latest/support/debug_utility.html#retrieve-client-ssh-public-key
 
 .. note::
-   F5 UDFラボのWindows 10 ClientにはSSH公開鍵には含まれていないため、上記ドキュメントの手順に従って、ssh-keygenコマンドでSSH公開鍵を生成してください。
+   F5 UDFラボのWindows 10 ClientにはSSH公開鍵には含まれていないため、上記ドキュメントの手順に従って、ssh-keygenコマンド (PowerShell)でSSH公開鍵を生成してください。
 
 
 BIG-IP Central Managerでデバッグ・セッションを設定
