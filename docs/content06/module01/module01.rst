@@ -57,7 +57,7 @@ Poolを作成します。　Pool memberのIPは後工程のアプリケーショ
 右の **"+ Create"** をクリックします。
 
 .. figure:: images/c6-m1-6.png
-   :scale: 30%
+   :scale: 20%
    :align: center
 
 - Pool Name:
